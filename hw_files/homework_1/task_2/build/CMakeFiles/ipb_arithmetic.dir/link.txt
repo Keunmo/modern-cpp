@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libipb_arithmetic.a CMakeFiles/ipb_arithmetic.dir/src/sum.cpp.o CMakeFiles/ipb_arithmetic.dir/src/subtract.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libipb_arithmetic.a
