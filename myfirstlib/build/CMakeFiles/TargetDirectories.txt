@@ -1,0 +1,4 @@
+/Users/keunmo/Workspace/projects/lang/cpp/myfirstlib/build/CMakeFiles/rebuild_cache.dir
+/Users/keunmo/Workspace/projects/lang/cpp/myfirstlib/build/CMakeFiles/edit_cache.dir
+/Users/keunmo/Workspace/projects/lang/cpp/myfirstlib/build/CMakeFiles/main.dir
+/Users/keunmo/Workspace/projects/lang/cpp/myfirstlib/build/CMakeFiles/tools.dir
