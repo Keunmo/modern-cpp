@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/keunmo/Desktop/구근모/스터디/ Cyrill Stachniss Modern C++/homework/hw_files/homework_1/task_2/src/subtract.cpp" "CMakeFiles/ipb_arithmetic.dir/src/subtract.cpp.o" "gcc" "CMakeFiles/ipb_arithmetic.dir/src/subtract.cpp.o.d"
-  "/Users/keunmo/Desktop/구근모/스터디/ Cyrill Stachniss Modern C++/homework/hw_files/homework_1/task_2/src/sum.cpp" "CMakeFiles/ipb_arithmetic.dir/src/sum.cpp.o" "gcc" "CMakeFiles/ipb_arithmetic.dir/src/sum.cpp.o.d"
+  "/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/src/subtract.cpp" "CMakeFiles/ipb_arithmetic.dir/src/subtract.cpp.o" "gcc" "CMakeFiles/ipb_arithmetic.dir/src/subtract.cpp.o.d"
+  "/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/src/sum.cpp" "CMakeFiles/ipb_arithmetic.dir/src/sum.cpp.o" "gcc" "CMakeFiles/ipb_arithmetic.dir/src/sum.cpp.o.d"
   )
 
 # Targets to which this target links.

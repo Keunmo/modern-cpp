@@ -1,4 +1,8 @@
-/Users/keunmo/Desktop/구근모/스터디/ Cyrill Stachniss Modern C++/homework/hw_files/homework_1/task_2/build/CMakeFiles/rebuild_cache.dir
-/Users/keunmo/Desktop/구근모/스터디/ Cyrill Stachniss Modern C++/homework/hw_files/homework_1/task_2/build/CMakeFiles/edit_cache.dir
-/Users/keunmo/Desktop/구근모/스터디/ Cyrill Stachniss Modern C++/homework/hw_files/homework_1/task_2/build/CMakeFiles/main.dir
-/Users/keunmo/Desktop/구근모/스터디/ Cyrill Stachniss Modern C++/homework/hw_files/homework_1/task_2/build/CMakeFiles/ipb_arithmetic.dir
+/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/build/CMakeFiles/ipb_arithmetic.dir
+/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/build/CMakeFiles/test_ipb_arithmetic.dir
+/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/build/CMakeFiles/edit_cache.dir
+/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/build/CMakeFiles/rebuild_cache.dir
+/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/build/CMakeFiles/list_install_components.dir
+/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/build/CMakeFiles/install.dir
+/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/build/CMakeFiles/install/local.dir
+/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_1_2/task_2/build/CMakeFiles/install/strip.dir
