@@ -14,8 +14,6 @@ add_library(
     ipb_arithmetic 
     src/subtract.cpp 
     src/sum.cpp
-    # include/ipb_arithmetic/subtract.hpp
-    # include/ipb_arithmetic/sum.hpp
 )
 add_executable(
     test_ipb_arithmetic 
@@ -30,16 +28,15 @@ set_target_properties(
     ipb_arithmetic PROPERTIES 
     ARCHIVE_OUTPUT_DIRECTORY 
         ${CMAKE_SOURCE_DIR}/results/lib
-    PUBLIC_HEADER 
-        "include/ipb_arithmetic/subtract.hpp;
-        include/ipb_arithmetic/sum.hpp"
+    # PUBLIC_HEADER 
+    #     "include/ipb_arithmetic/subtract.hpp;include/ipb_arithmetic/sum.hpp"
 )
 set_target_properties(
     test_ipb_arithmetic PROPERTIES 
     RUNTIME_OUTPUT_DIRECTORY 
         ${CMAKE_SOURCE_DIR}/results/bin
-    PUBLIC_HEADER
-        ${CMAKE_SOURCE_DIR}/include/ipb_arithmetic.hpp
+    # PUBLIC_HEADER
+    #     "include/ipb_arithmetic.hpp"
 )
 
 set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/install)
@@ -47,5 +44,13 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/install)
 install(
     TARGETS ipb_arithmetic
     ARCHIVE DESTINATION lib
-    PUBLIC_HEADER DESTINATION include
+    # PUBLIC_HEADER DESTINATION include
+)
+# install(
+#     FILES ${CMAKE_SOURCE_DIR}/include 
+#     DESTINATION ${CMAKE_SOURCE_DIR}/install
+# )
+install(
+    DIRECTORY ${CMAKE_SOURCE_DIR}/include
+    DESTINATION ${CMAKE_SOURCE_DIR}/install
 )
