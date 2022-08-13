@@ -12,9 +12,9 @@ int main(){
     int guess = 0;
     
     std::cout << "Guess a number between 0 and 99: ";
-    std::cin >> guess;
     
     while (1) {
+        std::cin >> guess;
         if (std::cin.fail()) {
             std::cout << "Error encountered, exiting..." << std::endl;
             return 1;
@@ -32,6 +32,9 @@ int main(){
         else if (guess < random_number) {
             std::cout << "Too low, try again: ";
         }
-        std::cin >> guess;
+        else{
+            std::cout << "Error encountered, exiting..." << std::endl;
+            return 1;
+        }
     }
 }
