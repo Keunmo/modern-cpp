@@ -5,7 +5,12 @@
 #ifndef HTML_WRITER_H_
 #define HTML_WRITER_H_
 
+#include <iostream>
 #include <string>
+#include <sstream>
+#include <fmt/core.h>
+#include <fmt/format.h>
+#include <filesystem>
 
 namespace html_writer {
 
