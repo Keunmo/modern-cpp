@@ -41,28 +41,43 @@ int main() {
 	// ScoredImage im3 = std::make_tuple("/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_3/web_app/data/000200.png", 0.88);
 	// ImageRow row1 = {im1, im2, im3};
 
-	const fs::path data_path{"/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_3/web_app/data"};
-	std::set<std::string> sorted_files;
-	// std::set<fs::path> sorted_files;
-	std::cout << "dir iter" << std::endl;
-	for (const auto& dir_elem : fs::directory_iterator{data_path}) {
-		// std::cout << dir_elem.path() << std::endl;
-		sorted_files.insert(dir_elem.path());
-		// sorted_files.insert(dir_elem);
-	}
-	std::cout << "set size: " << sorted_files.size() << std::endl;
-	std::cout << "sorted fnames" << std::endl;
-	int idx = 0;
-	for (const auto& f_entry : sorted_files) {
-		if (idx % 3 == 0)
-			std::cout << "it's first elem of row" << f_entry << std::endl;
-		else
-			std::cout << f_entry << std::endl;
-		idx++;
-	}
+	// const fs::path data_path{"/Users/keunmo/Workspace/projects/lang/modern-cpp/hw_files/homework_3/web_app/data"};
+	// std::set<std::string> sorted_files;
+	// // std::set<fs::path> sorted_files;
+	// std::cout << "dir iter" << std::endl;
+	// for (const auto& dir_elem : fs::directory_iterator{data_path}) {
+	// 	// std::cout << dir_elem.path() << std::endl;
+	// 	sorted_files.insert(dir_elem.path());
+	// 	// sorted_files.insert(dir_elem);
+	// }
+	// std::cout << "set size: " << sorted_files.size() << std::endl;
+	// std::cout << "sorted fnames" << std::endl;
+	// int idx = 0;
+	// for (const auto& f_entry : sorted_files) {
+	// 	if (idx % 3 == 0)
+	// 		std::cout << "it's first elem of row" << f_entry << std::endl;
+	// 	else
+	// 		std::cout << f_entry << std::endl;
+	// 	idx++;
+	// }
 	// std::set<std::string>::iterator iter;
 	// for (iter=sorted_files.begin(); iter != sorted_files.end(); iter++) {
 	// 	std::cout << *iter << std::endl;
 	// }
+	// std::array<int, 3> arr{1, 2, 3};
+	// std::cout << "empty?: " << arr.empty() << std::endl;
+	// for (const auto& i : arr)
+	// 	std::cout << i << std::endl;
+	// // arr = {};
+	// arr.fill(0);
+	// std::cout << "empty?: " << arr.empty() << std::endl;
+	// for (const auto& i : arr)
+	// 	std::cout << i << std::endl;
+	int a = -3;
+	unsigned int b = -3;
+	std::cout << "a: " << a << std::endl;
+	std::cout << "a: " << (unsigned int) a << std::endl;
+	std::cout << "b: " << b << std::endl;
+	std::cout << "b: " << (int) b << std::endl;
 	return 0;
 }

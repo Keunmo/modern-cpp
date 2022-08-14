@@ -37,13 +37,14 @@ namespace html_writer {
         else
             cout << "      <div class=\"column\">" << endl;
         std::string extension = fs::path(img_path).extension();
-        if ((extension != ".png") && (extension != ".jpg")) {
-            std::cerr << "[ERROR] : This library only process png or jpg files." << endl;
+        if ((extension == ".png") || (extension == ".jpg")) {
+            std::string img_name = fs::path(img_path).filename();
+            fmt::print("        <h2>{}<h2>\n", img_name);
+            fmt::print("        <img src=\"{}\" />\n", img_path);
+            fmt::print("        <p>score = {:.2f}<p>\n", score);
         }
-        std::string img_name = fs::path(img_path).filename();
-        fmt::print("        <h2>{}<h2>\n", img_name);
-        fmt::print("        <img src=\"{}\" />\n", img_path);
-        fmt::print("        <p>score = {:.2f}<p>\n", score);
+        else
+            std::cerr << "[ERROR] : This library only process png or jpg files." << endl;
         cout << "      </div>" << endl;
     }
 } // namespace html_writer
